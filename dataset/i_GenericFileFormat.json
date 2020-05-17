@@ -1,0 +1,36 @@
+{
+	"name": "i_GenericFileFormat",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "satest11 input",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Fake News Poll Responses by Type and City.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Event Category",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Total Events",
+				"type": "String"
+			}
+		]
+	}
+}

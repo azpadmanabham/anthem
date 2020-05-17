@@ -1,0 +1,23 @@
+{
+	"name": "o_GenericFileFormat",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "satest11 output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Fake News Poll Responses by Type and City.csv",
+				"container": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

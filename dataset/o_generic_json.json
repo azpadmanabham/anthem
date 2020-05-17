@@ -1,0 +1,32 @@
+{
+	"name": "o_generic_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "satest11 output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "test.json",
+				"container": "output"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Event Category": {
+					"type": "string"
+				},
+				"City": {
+					"type": "string"
+				},
+				"Total Events": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
