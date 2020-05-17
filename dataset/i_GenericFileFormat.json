@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "i_GenericFileFormat",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "satest11 input",
