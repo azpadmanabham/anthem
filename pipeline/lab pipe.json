@@ -1,7 +1,7 @@
 {
 	"name": "lab pipe",
 	"properties": {
-		"description": "This to test the github - comment2",
+		"description": "This to test the github - comment3",
 		"activities": [
 			{
 				"name": "Copy data1",
