@@ -47,24 +47,6 @@
 								"sink": {
 									"path": "$['Event Category']"
 								}
-							},
-							{
-								"source": {
-									"name": "City",
-									"type": "String"
-								},
-								"sink": {
-									"path": "$['City']"
-								}
-							},
-							{
-								"source": {
-									"name": "Total Events",
-									"type": "String"
-								},
-								"sink": {
-									"path": "$['Total Events']"
-								}
 							}
 						]
 					}
