@@ -13,6 +13,20 @@
 				"fileName": "test.json",
 				"container": "output"
 			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Event Category": {
+					"type": "string"
+				},
+				"City": {
+					"type": "string"
+				},
+				"Total Events": {
+					"type": "string"
+				}
+			}
 		}
 	}
 }
